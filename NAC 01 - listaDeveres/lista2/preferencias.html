@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Preferências</title>
+</head>
+<body>
+	<form action="cadastrar" method="Post" name="Preferencias">
+		<fieldset>
+			<legend>Preferências</legend>
+			<label>Nome: </label><input type="text" name="nome" id="idNome">
+			<br><br>
+			<label>E-mail: </label><input type="text" name="email" id="idEmail">
+			<br><br>
+			<label>Cor favorita: </label>
+			<select name="corFavorita" id="idCor">
+				<option value="azul">Azul</option>
+				<option value="preto">Preto</option>
+				<option value="vermelho">Vermelho</option>
+				<option value="verde">Verde</option>
+				<option value="amarelo">Amarelo</option>
+				<option value="branco">Branco</option>
+			</select>
+			<br><br>
+			<label>Manequim: </label>
+			<br>
+			<input type="radio" name="manequim" id="idPequeno">Pequeno
+			<br>
+			<input type="radio" name="manequim" id="idMedio">Medio
+			<br>
+			<input type="radio" name="manequim" id="idGrande">Grande
+			<br>
+			<input type="radio" name="manequim" id="idXgrande">Extra Grande
+			<br><br>
+			<label>Estilo preferido: </label>
+			<br>
+			<input type="checkbox" name="despojado" id="idDespojado">Despojado
+			<input type="checkbox" name="casual" id="idCasual">Casual
+			<input type="checkbox" name="esporte" id="idEsporte">Esporte
+			<input type="checkbox" name="social" id="idSocial">Social
+			<br><br>
+			<input type="submit" name="enviar">
+			<input type="reset" name="limpar">
+		</fieldset>
+	</form>
+</body>
+</html>

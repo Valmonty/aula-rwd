@@ -1,0 +1,32 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculo de gorjeta</title>
+</head>
+<body>
+	<fieldset>
+		<legend>Calculo de Gorjeta</legend>
+		<form action="calcularGorjeta" method="post" name="gorjeta">
+			<label>Valor da conta: </label>
+			<br>
+			<input type="text" name="valorConta" id="valorConta">
+			<br><br>
+			<label>% Gorjeta</label>
+			<br>
+			<select name="gorjeta" id="gorjeta">
+				<option value="5%">5%</option>
+				<option value="10%">10%</option>
+				<option value="15%">15%</option>
+				<option value="20%">20%</option>
+			</select>
+			<br><br>
+			<label>Numero de Pessoas</label>
+			<br>
+			<input type="text" name="numPessoas" id="numeroPessoas">
+			<br><br>
+			<input type="submit" name="enviar" id="enviar">
+			<input type="reset" name="limpar"   id="limpar">
+		</form>
+	</fieldset>
+</body>
+</html>

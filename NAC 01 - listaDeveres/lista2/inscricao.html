@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<fieldset>
+		<legend>Inscrição de Evento</legend>
+		<form action="inscrever" method="post" name="evento">
+			<label>Nome: </label>
+			<br>
+			<input type="text" name="nome" id="idNome">
+			<br>
+			<label>E-mail: </label>
+			<br>
+			<input type="text" name="email" id="idEmail">
+			<br>
+			<label>Telefone: </label>
+			<br>
+			<input type="text" name="telefone" id="idTelefone">
+			<br><br>
+			<label>Data Nascimento</label>
+			<input type="date" name="dataNasc" id="idDataNascto">
+			<br><br>
+			<label>Empresa: </label>
+			<input type="text" name="empresa" id="idEmpresa">
+			<br><br>
+			<label>Cargo: </label>
+			<br>
+			<input type="radio" name="cargo" id="idCargo">Proprietário/Sócio
+			<br>
+			<input type="radio" name="cargo" id="idCargo">Presidencia
+			<br>
+			<input type="radio" name="cargo" id="idCargo">Diretoria
+			<br>
+			<input type="radio" name="cargo" id="idCargo">Gerencia
+			<br>
+			<input type="radio" name="cargo" id="idCargo">Supervisão
+			<br>
+			<input type="radio" name="cargo" id="idCargo">Outro
+			<br><br>
+			<label>Cidade</label>
+			<br>
+			<input type="text" name="cidade" id="idCidade">
+			<br><br>
+			<label>UF</label>
+			<br>
+			<select name="uf" id="idUf">
+				<option value="rioDeJaneiro">Rio de Janeiro</option>
+				<option value="saoPaulo">São Paulo</option>
+				<option value="santaCatarina">Santa Catarina</option>
+				<option value="matoGrosso">Mato Grosso</option>
+				<option value="amazonas">Amazonas</option>
+				<option value="bahia">Bahia</option>
+			</select>
+			<br><br>
+			<label>Tipo Inscrição</label>
+			<br>
+			<input type="radio" name="tipoInscricao" id="idTipoInscricao">Pessoa Fisica
+			<input type="radio" name="tipoInscricao" id="idTipoInscricao">Pessoa Juridica
+			<br><br>
+			<label>Como ficou sabendo do evento?</label>
+			<br>
+			<input type="checkbox" name="ficouSabendo" id="idComoFicousabendo">Revistas
+			<br>
+			<input type="checkbox" name="ficouSabendo" id="idComoFicousabendo">Jornais
+			<br>
+			<input type="checkbox" name="ficouSabendo" id="idComoFicousabendo">Televisão
+			<br>
+			<input type="checkbox" name="ficouSabendo" id="idComoFicousabendo">Internet
+			<br>
+			<input type="checkbox" name="ficouSabendo" id="idComoFicousabendo">Patrocinadores
+			<br>
+			<input type="checkbox" name="ficouSabendo" id="idComoFicousabendo">Outros
+			<br><br>
+			<label>Qual interesse no evento?</label>
+			<br>
+			<input type="checkbox" name="qualInteresse" id="idQualInteresse">Palestras
+			<br>
+			<input type="checkbox" name="qualInteresse" id="idQualInteresse">Workshops
+			<br>
+			<input type="checkbox" name="qualInteresse" id="idQualInteresse">Estandes
+			<br>
+			<input type="checkbox" name="qualInteresse" id="idQualInteresse">Treinamentos
+			<br>
+			<input type="checkbox" name="qualInteresse" id="idQualInteresse">Outros
+			<br><br>
+			<label>Nome crachá</label>
+			<br>
+			<input type="text" name="nomeCracha" id="idNomeCracha">
+			<br><br>
+			<label>Forma de Pagamento</label>
+			<select name="formaPagamento" id="idFormaPagamento">
+				<option value="boletoBancario">Boleto Bancário</option>
+				<option value="cartaoCredito">Cartão Crédito</option>
+			</select>
+			<br><br>
+			<label>Deseja receber informações por email?</label>
+			<input type="checkbox" name="infoEmail" id="idInfosEmail">
+			<br><br>
+			<label>Deseja receber informações por SMS</label>
+			<input type="checkbox" name="infoSMS" id="idInfosSMS">
+			<br><br>
+			<label>Comentários gerais</label>
+			<br>
+			<textarea name="comentariosGerais" rows="10" cols="70" id="idComentariosGerais"></textarea>
+			<br>
+			<input type="submit" name="enviar">
+			<input type="reset" name="limpar">
+		</form>
+	</fieldset>
+</body>
+</html>

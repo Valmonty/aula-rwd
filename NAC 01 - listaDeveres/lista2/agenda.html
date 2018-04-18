@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agenda de Contato</title>
+</head>
+<body>
+	<fieldset>
+		<legend>Agenda de Contato</legend>
+		<form action="agendar" method="post" name="agenda">
+			<label>Nome: </label><input type="text" name="nome" id="idNome">
+			<br><br>
+			<label>E-mail: </label><input type="text" name="email" id="idEmail">
+			<br>
+			<label>Tipo E-mail: </label>
+			<input type="radio" name="tipoEmail" id="idTipoEmail" value="comercial">Comercial
+			<input type="radio" name="tipoEmail" id="idTipoEmail" value="pessoal">Pessoal
+			<br>
+			<br>
+			<label>Cargo: </label>
+			<select id="idCargo" name="cargo" >
+				<option value="presidente">Presidente</option>
+				<option value="vice_precidente">Vice-Presidente</option>
+				<option value="diretor">Diretor</option>
+				<option value="gerente">Gerente</option>
+				<option value="supervisor">Supervisor</option>
+				<option value="assistente">Assistente</option>
+			</select>
+			<br><br>
+			<label>Empresa: </label>
+			<br>
+			<input type="text" name="empresa" id="idEmpresa">
+			<br><br>
+			<label>Tel. Comercial: </label>
+			<br>
+			<input type="text" name="telCom" id="idTelComercial">
+			<br><br>
+			<label>Tel. Celular: </label>
+			<br>
+			<input type="text" name="telCel" id="idTelCelular">
+			<br><br>
+			<label>Tel. Contato: </label>
+			<br>
+			<input type="checkbox" name="tipoContato" id="comercial">Comercial
+			<br>
+			<input type="checkbox" name="pessoal" id="pessoal">Pessoal
+			<br>
+			<input type="submit" name="enviar">
+			<input type="reset" name="limpar">
+		</form>
+	</fieldset>
+</body>
+</html>
