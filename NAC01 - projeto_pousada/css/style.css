@@ -1,0 +1,99 @@
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: arial;
+  display: block;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #4CAF50;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+nav ul li {
+  background-color: black;
+  float: left;
+  margin-right: 30px;
+}
+
+nav ul li.active {
+  background-color: #4CAF50;
+}
+
+header {
+  font-family: sans-serif, Verdana;
+  background-color: #E0E0E7;
+  color: black;
+  padding: 8px;
+  background-color: #E0E0E7;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+main h1 {
+  padding: 0 35px;
+  text-indent: 15px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+main p {
+  padding: 0 60px;
+  text-indent: 4em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: right;
+  word-spacing: 4px;
+  text-align: justify;
+}
+
+main ul {
+  margin-left: 70px;
+  word-spacing: 2px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+img.esquerda {
+  float: left;
+  padding: 30px;
+}
+
+img.esquerda_sem_texto {
+  align: left;
+  padding: 30px;
+}
+
+img.esquerda_clear {
+  float: left;
+  padding: 30px;
+  clear: both;
+}
+
+.centralizar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  font-family: sans-serif, Verdana;
+  background-color: #E0E0E7;
+  color: black;
+  padding: 40px;
+  clear: both;
+}
